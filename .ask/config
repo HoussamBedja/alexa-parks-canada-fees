@@ -1,7 +1,7 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.c01cfbcd-f32e-431c-83ff-c5ea4814b147",
+      "skill_id": "amzn1.ask.skill.6358592e-267d-4870-98d6-2e3c986904ff",
       "was_cloned": false,
       "merge": {
         "manifest": {
@@ -14,7 +14,23 @@
           }
         }
       },
-      "in_skill_products": []
+      "in_skill_products": [],
+      "resources": {
+        "manifest": {
+          "eTag": "8d3f596c4826e1cc3393a674dab00743"
+        },
+        "interactionModel": {
+          "en-CA": {
+            "eTag": "46282c2390d6f97cf313ab7df9e8681a"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:590012697664:function:ask-custom-Parks-Canada-fees-default",
+            "revisionId": "587c7e75-94b1-4367-ab6d-c2236a8718b3"
+          }
+        ]
+      }
     }
   }
 }
